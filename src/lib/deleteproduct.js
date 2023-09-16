@@ -13,8 +13,8 @@ export default function DeleteProduct(props){
      if(response.success){
         alert("deleted")
      }
-    //  router.refresh()
-     router.push("/addproduct")
+     router.refresh()
+   //   router.push("/addproduct")
 
    }
 
